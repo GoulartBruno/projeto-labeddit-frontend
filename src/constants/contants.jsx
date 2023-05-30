@@ -1,1 +1,1 @@
-export const BASE_URL = "https://fullstackproject-ilt9.onrender.com";
+export const BASE_URL = "https://fullstack-project-s5yw.onrender.com";
