@@ -10,7 +10,6 @@ import Cookies from "universal-cookie";
 import loading from "../../assets/loading.svg";
 import { getMessageErrorToastLogin } from "../../utils/ReturnMessageToast";
 import { UserContext } from "../../contexts/UserContext";
-import axios from "axios";
 
 export default function LoginPage() {
   const cookies = new Cookies();
@@ -115,8 +114,7 @@ export default function LoginPage() {
               <button
                 type="button"
                 className="button-outline"
-                onClick={() => navigate("/signup")}
-              >
+                onClick={() => navigate("/signup")}>
                 Crie uma conta!
               </button>
             </div>
