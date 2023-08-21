@@ -1,28 +1,26 @@
 # Labeddit - Frontend
 
-## Sobre o Projeto
+## About the Project
 
-Labeddit é uma rede social fictícia, criada para o projeto FullStack final do bootcamp FullStack Web da Labenu, dividido em 2 repositórios (labeddit-backend e labeddit-frontend).
+Labeddit is a fictional social network created for the final FullStack project of Labenu's FullStack Web bootcamp, divided into 2 repositories (labeddit-backend and labeddit-frontend).
 
-O front-end é uma aplicação React.Js, criada usando Vite, onde o usuário poderá realizar cadastro, login, visualização de uma lista de posts, visualizar um post específico com uma lista de comentários, interagir com os posts e comentários assim como criar seus próprios posts e comentários. Rotas protegidas com JWT salvos em cookies. Inspirado na rede social Reddit.
+The front-end is a React.js application created using Vite, where users can register, log in, view a list of posts, view a specific post with a list of comments, interact with posts and comments, as well as create their own posts and comments. Routes are protected with JWT stored in cookies. Inspired by the Reddit social network.
 
-## Link de Acesso
+## Access Link
 
-- Labeddit-Backend: [Clique aqui!](https://github.com/GoulartBruno/projeto-labeddit-frontend)
+- Labeddit-Front-End: [Click here!](https://github.com/GoulartBruno/projeto-labeddit-frontend)
 
-### Instalação
+### Installation
 
 ```bash
-# Instale todas as dependências
-$ npm install
-
-# Execute o projeto
+# Install all dependencies$ npm install
+# Run the project
 $ npm run dev
 
-# A aplicação será iniciada na porta 5173
+# The application will start on port 5173
 ```
 
-### Bibliotecas Utilizadas
+### Libraries Used
 
 ```
 react-router-dom
@@ -38,7 +36,7 @@ postcss
 autoprefixer
 ```
 
-### Tecnologias
+### Technologies
 
 - ReactJS
 - React Hooks
@@ -48,46 +46,46 @@ autoprefixer
 - Cookies
 - TailwindCSS
 
-### Funcionalidades
+### Functionalities
 
-- **Rotas públicas:**
-  - É possível realizar cadastro.
-  - É possível realizar login.
-- **Rotas protegidas por autenticação:**
-  - Visualização de uma lista de posts.
-    - Com data de quando foram criados.
-    - Com usernames de seus criadores.
-    - Com número de likes.
-    - Com número de comentários.
-    - Escolher visualizar em ordem de mais recentes.
-    - Escolher visualizar em ordem de mais populares (baseado no número de likes).
-  - É possível criar um novo post.
-  - É possível dar like ou dislike em qualquer post.
-  - Não é possível dar like ou dislike em seu próprio post.
-  - Visualização de um post específico com sua lista de comentários (se houver).
-    - Comentários com data de quando foram criados.
-    - Comentários com usernames de seus criadores.
-    - Comentários com número de likes.
-  - É possível criar um novo comentário.
-  - É possível dar like ou dislike em um comentário.
-  - Não é possível dar like ou dislike no seu próprio comentário.
-  - É possível fazer logout (sair) da rede social.
+- **Public routes:**
+- It is possible to register.
+- It is possible to log in.
+- **Authentication-protected routes:**
+  - Viewing a list of posts.
+    - With date of when they were created.
+    - With usernames of their creators.
+    - With number of likes.
+    - With number of comments.
+    - Choose to view in order of most recent.
+    - Choose to view in order of most popular (based on the number of likes).
+  - You can create a new post.
+  - You can like or dislike any post.
+  - It is not possible to like or dislike your own post.
+  - Viewing a specific post with its list of comments (if any).
+    - Comments with date when they were created.
+    - Comments with usernames of their creators.
+    - Comments with number of likes.
+  - You can create a new comment.
+  - It is possible to like or dislike a comment.
+  - It is not possible to like or dislike your own comment.
+  - It is possible to log out (exit) of the social network.
 
-### Futuras melhorias
+### Future improvements
 
-- Ser possível excluir um post.
-- Ser possível excluir um comentário.
-- Visulizar página com informações do usuário.
-- Ser possível excluir sua conta.
-- Ser possível editar um post.
-- Ser possível editar um comentário.
-- Ser possível editar informações de usuário (username, email e senha).
+- Being able to delete a post.
+- You can delete a comment.
+- View page with user information.
+- Being able to delete your account.
+- Being able to edit a post.
+- It is possible to edit a comment.
+- It is possible to edit user information (username, email and password).
 
-### Status do projeto
+### Project status
 
-- Finalizado ⏳
+- Finished ⏳
 
-## Contato
+## Contact
 
 Linkedin: https://www.linkedin.com/in/goulartbruno/
 <br>
