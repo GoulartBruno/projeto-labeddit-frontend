@@ -1,93 +1,93 @@
 export const getMessageErrorToastLogin = (message) => {
   switch (message) {
     case "email: Invalid email":
-      return "'Email' ou 'Senha' incorretos. Tente novamente.";
+      return "'Email' or 'Password' is incorrect. Try again.";
 
     case "password: String must contain at least 8 character(s)":
-      return "'Email' ou 'Senha' incorretos. Tente novamente.";
+      return "'Incorrect Email' or 'Password'. Try again.";
 
-    case "'Email' ou 'Password' incorretos. Tente novamente.":
-      return "'Email' ou 'Senha' incorretos. Tente novamente.";
+    case "'Incorrect Email' or 'Password'. Try again.":
+      return "Incorrect Email' or 'Password'. Try again.";
 
     default:
-      return "Erro inesperado. Tente novamente.";
+      return "Unexpected error. Try again.";
   }
 };
 
 export const getMessageErrorToastSignup = (message) => {
   switch (message) {
     case "username: String must contain at least 2 character(s)":
-      return "Username inválido, deve possuir pelo menos 2 caracteres.";
+      return "Invalid username, must have at least 2 characters.";
 
     case "email: Invalid email":
-      return "Email inválido. Verifique e tente novamente.";
+      return "Invalid email. Check and try again.";
 
     case "password: String must contain at least 8 character(s)":
-      return "Senha inválida. A senha deve possuir entre 8 e 12 caracteres, com letras maiúsculas e minúsculas e no mínimo um número e um caractere especial.";
+      return "Invalid password. The password must be between 8 and 12 characters long, with upper and lower case letters and at least one number and one special character.";
 
-    case "password: A senha deve possuir entre 8 e 12 caracteres, com letras maiúsculas e minúsculas e no mínimo um número e um caractere especial.":
-      return "Senha inválida. A senha deve possuir entre 8 e 12 caracteres, com letras maiúsculas e minúsculas e no mínimo um número e um caractere especial.";
+    case "password: The password must be between 8 and 12 characters long, with upper and lower case letters and at least one number and one special character.":
+      return "Invalid password. The password must be between 8 and 12 characters long, with upper and lower case letters and at least one number and one special character.";
 
-    case "Não é possível criar mais de uma conta com o mesmo username. Tente novamente.":
-      return "Username em uso! Não é possível criar mais de uma conta com o mesmo username. Tente novamente.";
+    case "It is not possible to create more than one account with the same username. Try again.":
+      return "Username in use! It is not possible to create more than one account with the same username. Try again.";
 
-    case "Não é possível criar mais de uma conta com o mesmo e-mail. Tente novamente.":
-      return "Não é possível criar mais de uma conta com o mesmo e-mail. Tente novamente.";
+    case "It is not possible to create more than one account with the same email. Try again.":
+      return "It is not possible to create more than one account with the same email. Try again.";
 
     default:
-      return "Erro inesperado. Tente novamente.";
+      return "Unexpected error. Try again.";
   }
-}
+};
 
 export const getMessageErrorToastCreatePostOrComment = (message) => {
-    switch (message) {
-      case "content: String must contain at least 1 character(s)":
-        return "É preciso digitar algo antes de postar!";
-  
-      case "Token inválido.":
-        return "Erro inesperado. Verifique se está logado(a) corretamente e tente novamente.";
-  
-      case "token: String must contain at least 1 character(s)":
-        return "Sessão expirada. Atualize a página e refaça o login para continuar.";
+  switch (message) {
+    case "content: String must contain at least 1 character(s)":
+      return "You need to type something before posting!";
 
-      case "postId: String must contain at least 1 character(s)":
-        return "Erro inesperado. Atualize a página e tente novamente.";
+    case "Token inválido.":
+      return "Unexpected error. Check if you are logged in correctly and try again.";
 
-      case "Post não encontrado. Verifique o id e tente novamente.":
-        return "Post não encontrado. Verifique se o post ainda existe e tente novamente.";
-  
-      default:
-        return "Erro inesperado. Tente novamente.";
+    case "token: String must contain at least 1 character(s)":
+      return "Session expired. Refresh the page and log in again to continue.";
+
+    case "postId: String must contain at least 1 character(s)":
+      return "Unexpected error. Refresh the page and try again.";
+
+    case "Post not found. Check the id and try again.":
+      return "Post not found. Check if the post still exists and try again.";
+
+    default:
+      return "Unexpected error. Try again.";
   }
 };
 
 export const getMessageErrorToastLikeDislike = (message) => {
   switch (message) {
-    case "Não é possível interagir com seu próprio post.":
-      return "Não é possível interagir com seu próprio post.";
+    case "Unable to interact with your own post.":
+      return "Unable to interact with your own post.";
 
-    case "Não é possível interagir com seu próprio comentário.":
-      return "Não é possível interagir com seu próprio comentário."
+    case "Unable to interact with your own comment.":
+      return "Unable to interact with your own comment.";
 
-    case "Token inválido.":
-      return "Erro inesperado. Verifique se está logado(a) corretamente e tente novamente.";
+    case "Invalid token.":
+      return "Unexpected error. Check if you are logged in correctly and try again.";
 
     case "token: String must contain at least 1 character(s)":
-      return "Sessão expirada. Atualize a página e refaça o login para continuar.";
+      return "Session expired. Refresh the page and log in again to continue.";
 
     case "postId: String must contain at least 1 character(s)":
-      return "Erro inesperado. Atualize a página e tente novamente.";
+      return "Unexpected error. Refresh the page and try again.";
 
-    case "Post não encontrado. Verifique o id e tente novamente.":
-      return "Post não encontrado. Verifique se o post ainda existe e tente novamente.";
+    case "Post not found. Check the id and try again.":
+      return "Post not found. Check if the post still exists and try again.";
 
     case "commentId: String must contain at least 1 character(s)":
-      return "Erro inesperado. Atualize a página e tente novamente.";
+      return "Unexpected error. Refresh the page and try again.";
 
-    case "Comentário não encontrado. Verifique o id e tente novamente.":
-      return "Post não encontrado. Verifique se o comentário ainda existe e tente novamente.";
+    case "Comment not found. Check the id and try again.":
+      return "Post not found. Check if the comment still exists and try again.";
 
     default:
-      return "Erro inesperado. Tente novamente.";
-}
+      return "Unexpected error. Try again.";
+  }
 };
